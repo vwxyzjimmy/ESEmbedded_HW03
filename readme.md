@@ -67,7 +67,7 @@ How do C functions pass and return parameters? Please describe the related stand
 Using objdump to observe the mechanism that how the parameter pass to function and how the parameter return.
 
 `main.c`
-```c=1
+```c
 #include <stdio.h>
 int int_val1 = 1, int_val2 = 2, int_val3 = 3, int_val4 = 4, int_val5 = 5;
 float float_val = 22.22;
