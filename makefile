@@ -15,5 +15,4 @@ qemu:
 	$(QEMU) -M STM32F4-Discovery -nographic -gdb tcp::1234 -S -kernel main.bin
 
 clean:
-	rm -rf *.o *.elf
-
+	rm -rf *.o *.elf *.bin
