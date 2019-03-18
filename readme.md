@@ -255,7 +255,7 @@ In the function `pass_uint64_t`,the program get the 64bit parameter by saving in
 * The full objdump
 
 `objudmp`
-```asssembly
+```assembly
 Disassembly of section .mytext:
 
 00000000 <pass_int_function-0x8>:
